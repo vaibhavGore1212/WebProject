@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univercity Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <button class="hideButton" onclick="hideMenu()">close</button>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About page.html">ABOUT</a></li>
+                    <li><a href="course page.html">COURSE</a></li>
+                    <li><a href="blog page.html">BLOG</a></li>
+                    <li><a href="contact page.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <button class="showButton" onclick="showMenu()">Menu</button>
+        </nav>
+
+       <h1>Our Certificate & Online Programs For 2024</h1>
+
+    </section>
+
+<!-------- Blog Page Content -------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="cafeteria.png" alt="">
+            <h2>Our Certificate & Online Programs For 2024</h2>
+            <p>Dipanshu Sharma, the Ministry of Education and Social Welfare organized a seminar on 'Open University' in collaboration with the Ministry of Information
+                 and Broadcasting, the UGC, and the Indian National Commission for Cooperation with UNESCO.
+                 After the seminar recommendation, an open university in India has established on an experimental basis.
+                Starting in 1974, the government of India appointed an eight-member working group on the open university, the leading role was given to G. 
+                Parthasarathi, the then Vice-Chancellor of the Jawaharlal Nehru University.</p>
+                <br>
+                <p>The working group recommended establishing an open university by an act of parliament as early as possible. 
+                    They recommended that the university should have jurisdiction over the entire country so that, 
+                    once it is fully developed, any student even in the remotest corner of the country can have access to its instruction and 
+                    degrees (Working Group Report, 1974).</p>
+                <br>
+                <p>The working group suggested several measures to be followed in instructional and management processes of the 
+                    open university which included: admission procedure, age relaxation, preparation of reading materials, 
+                    setting up of core group scholars in different fields, setting up of study centers, the vehicle of curricular programs, 
+                    live contact with teachers and so on.</p>
+                <br>
+                <p>In 1985, the Union Government made a policy statement for the establishment of a national open university. 
+                    A Committee was constituted by the Ministry of Education to chalk out the plan of action for the National Open University. 
+                    On the basis of the report of the Committee, the Union Government introduced a bill in Parliament.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form action="" class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>JournalCommerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--------Facilities-------->
+
+
+
+
+
+
+
+
+<!---------Footer-------->
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla,<br>
+        elefiend faucibus est sollidentesque aliquet turpis null.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+</section>
+
+
+
+
+
+<!------JavaScript for Toggle Menu----->
+
+<script>
+    var navLink = document.getElementById("navLink");
+    
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
